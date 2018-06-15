@@ -24,7 +24,7 @@ class App extends Component {
         user: 'admin',
         buttonText: 'Log Out',
         loginInstances: this.state.loginInstances + 1,
-        loginLog: [...this.state.loginLog, (new Date()).toString()]
+        loginLog: [...this.state.loginLog, (new Date().toString())]
       });
     } else {
       this.setState({
